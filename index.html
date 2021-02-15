@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+        <link rel="stylesheet" href="css/style.css">
+    <title>My meteo</title> 
+</head>
+<body style="background-image : url(img/labonnepp2.jpg);">
+    <form> 
+
+        <h2>Regardez la météo !</h2> 
+        <button id="buttons">Rechercher</button> 
+        <input type="text" placeholder="Ex : Marseille" id="keyword">
+        <div id="wind"></div>
+        <div id="temp"></div>
+        <div id="humidity"></div>
+       <div id="container"></div>
+       <div id='allbody' class="app" style="background-image: url(background.gif);"></div>
+    </form>
+
+    <div id="match-list"></div>
+    <div id="mapid" style="width: 600px; height: 400px;"></div>
+
+</body>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="js/third.js"></script>
+<script src="js/sec.js"></script>
+<script src="js/first.js"></script>
+</html>

@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.cold{
+    background-color: rgb(130, 168, 180);
+}
+
+.middle{
+    background-color: rgb(235, 187, 98);
+}
+
+.hot{
+    background-color: rgb(219, 68, 68);
+}
+input{
+    height: 40px;
+    width: 400px;
+}
+
+#buttons{
+    height: 43px;
+    width: 100px;
+}
+
+li{
+    list-style: none;
+    color: rgb(62, 19, 252)
+}
+
+#mapid{
+   
+    margin-top: 100px;
+    display: inline-flex;
+}
+
+p, h2{
+    color: rgb(62, 19, 252)
+}
